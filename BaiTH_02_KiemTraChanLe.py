@@ -4,8 +4,9 @@ n = int( input("Nhập một số nguyên dương ") )
 #Tính phần dư
 du = n % 2
 
+
 # Kiểm tra
 if du==0:
-    print("Số chẵn")
+    print(f"Số {n} là số chẵn")
 else:
-    print("Số lẻ")
+    print(f"Số {n} là số lẻ")
